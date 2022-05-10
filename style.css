@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.home1{
+    height: 100vh;
+    width: 100%;
+    object-fit: content;
+
+}
+
+.home{
+    background: url(./assets/bg-image.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;   
+}
+.HomeContain {
+   position: absolute;
+   left: 8%;
+   top: 35%;
+     
+}
+.HomeContain h1{
+    font-size: 3.5rem;
+}
+.Works{
+    background: rgb(240, 251, 255);
+    /* height: 670px ; */
+    height: auto;
+    width: 100%;
+}
+.card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+
+
+
+.card-img1{
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    width: 10rem;
+}
+.card-img2{
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    width: 6rem;
+}
+
+.Articles{
+    background: rgb(240, 251, 255);
+    height: auto;
+    width: 100%;
+}
+
+
+.grab{
+    background: orangered;
+    height: auto;
+    width: 100%;
+}
+
+.Footers{
+    background: rgb(39, 39, 39);
+    height: auto;
+    width: 100%;
+}
+
+.Myborders{
+    border-left: 2px dotted ;
+
+}
+.MyBorder{
+    border-left: 2px dotted ;
+
+}
+.blank{
+    border-bottom: 2px solid ;
+   width: 30px;
+
+}
+/* .row{
+    justify-content: space-between;
+    align-items: center;
+
+} */
+.navbar-nav .nav-item {
+    width: 135px !important;
+    padding: 0 0.625rem;
+}
+.navbar-nav {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
+/* 
+
+.navbar-selection{
+    position:fixed;
+  width:100%;
+  left:0;
+  z-index:1000;
+  -webkit-transition:all 0.3s ease-out;
+  transition:all 0.3s ease-out;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
+.navbar-nav .nav-item{
+    width: 90px !important;
+    padding:0 0.625rem;
+    transition:all 200ms linear;
+} */
